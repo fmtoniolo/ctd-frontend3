@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  --red: #ed1b2e;
+  --gray: #efefef;
+  --darkgray: #757575;
+}
+
+#root {
+  width: 738px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: inherit;
+  background-color: var(--red);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-img {
+  background-color: white;
+  height: 42px;
+  width: 42px;
+  justify-content: flex-start;
+  margin-left: 32px;
+  border-radius: 50%;
+}
+.menu {
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 32px;
+}
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+
+.footer {
+  background-color: var(--red);
+  width: inherit;
+  height: 190px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.body-container h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #171717;
+  text-align: center;
+  padding: 25px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 65px;
+  margin-bottom: 65px;
+}
+
+.card-container {
+  width: 182px;
+  height: 210px;
+  background-color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Roboto", sans-serif;
+  color: var(--darkgray);
+  text-align: center;
+  border-radius: 8px;
+}
+
+.card-container:hover {
+  transform: scale(110%);
+  transition: 190ms;
+}
+
+.card-img img {
+  max-width: 85%;
+  max-height: 90%;
+  margin-top: 17px;
+  border-radius: 8px;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.category {
+  font-size: 14px;
+}
