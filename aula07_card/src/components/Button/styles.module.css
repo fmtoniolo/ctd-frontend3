@@ -1,0 +1,15 @@
+.button {
+  background-color: blueviolet;
+  width: 150px;
+  height: 60px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.clear {
+  background-color: rgb(80, 43, 0);
+  width: 150px;
+  height: 60px;
+  margin: 20px;
+  border-radius: 8px;
+}
