@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #555555;
+}
+
+li {
+  background-color: rgba(255, 255, 255, 0.5);
+  list-style: none;
+  width: 20vw;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 10px;
+}
+
+form,
+h1 {
+  margin-left: 55px;
+}
