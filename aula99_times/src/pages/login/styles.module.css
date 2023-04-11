@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  --bg-color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+}
+
+.login_container {
+  background-color: var(--bg-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  width: 478px;
+  height: 389px;
+  border: 2px solid #4b4b4b;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  width: 80%;
+  gap: 30px;
+}
+
+form input,
+button {
+  height: 55px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: #454545;
+  color: white;
+}
+
+input[type="email"],
+input[type="password"] {
+  font-size: 20px;
+}
+
+::placeholder {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 25%;
+}
+
+form button {
+  background-color: #525252;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 45px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #787878;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+  transition: ease-in-out 100ms;
+}
